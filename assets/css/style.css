@@ -1,0 +1,47 @@
+header{
+
+}
+
+body {
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+footer {
+text-align: center;
+background-color: #666666;
+min-height: 100px;
+color: white;
+text-align: center;
+padding-top: 50px;
+border-top: 20px;
+border-style: solid;
+border-color:#4aaaa5;
+}
+
+nav {
+float:right;
+
+
+}
+
+aside {
+width: 20%;
+float: right;
+
+}
+
+.logo {
+	background: #4aaaa5;
+	max-width: 15%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	font-style: bold;
+	margin-left: 200px;
+
+
+}
+
+
+
