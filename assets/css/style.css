@@ -42,8 +42,8 @@ margin-right: 100px;
 
 
 img {
-
-
+margin-left: 100px;
+float: left;
 max-width: 300px;
 max-height: 200px;
 
