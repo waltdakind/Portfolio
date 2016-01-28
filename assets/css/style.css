@@ -1,5 +1,15 @@
 header{
+border-color: #cccccc;
+border-style: solid;
+border-size: 4px;
+min-height: 200px;
 
+}
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	background: white;
+	color:#4aaaa5;	
 }
 
 body {
@@ -21,15 +31,14 @@ border-color:#4aaaa5;
 
 nav {
 float:right;
-
+vertical-align: bottom;
 
 }
 
 aside {
 width: 20%;
 float: right;
-
-}
+max-width: 270px;}
 
 .logo {
 	background: #4aaaa5;
@@ -43,5 +52,22 @@ float: right;
 
 }
 
+.container {
+	background: #ffffff;
+	border-width: 4px;
+	border-style: solid;
+	background: #ffffff;
+	border-color:#dddddd;
+	max-width: 650px;
+	padding-bottom: 200px;
+	}
+
+.sidebar {
+	float: right;
+	max-width: 270px;
+	background: #ffffff;
+	border-width: 4px;
+	border-style: solid;
+}
 
 
