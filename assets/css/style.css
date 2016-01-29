@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 header{
 border-color: #cccccc;
 border-style: solid;
@@ -5,20 +10,34 @@ border-size: 4px;
 min-height: 200px;
 max-height: 250px;
 word-spacing: 20px;
+font-weight: bold;
 }
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 32px;
 	background: white;
 	color:#4aaaa5;	
-
+	margin-left: 100px;
+	font-weight: bold;
+	font-size: 32px;
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: white;
+	color:#4aaaa5;	
+	margin-left: 100px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
 }
 
 
 body {
-font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-background-image: "assets/images/b-ground-img.png";
-
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: "assets/images/b-ground-img.png";
+  	position: relative;
+  	margin: 0;
+  	padding-bottom: 6rem;
+  	min-height: 100%;
 }
 
 
@@ -32,21 +51,23 @@ padding-top: 50px;
 border-top: 20px;
 border-style: solid;
 border-color:#4aaaa5;
+position: absolute;
+bottom: -200px;
+width: 100%;
 }
 
 nav {
-
 vertical-align: bottom;
 margin-right: 100px;
 }
 
 
 img {
-margin-left: 100px;
-float: left;
-max-width: 300px;
-max-height: 200px;
-
+	max-width: 300px;
+	max-height: 200px;
+	float: left;
+	padding-right: 30px;
+	
 }
 .logo {
 	background: #4aaaa5;
@@ -63,21 +84,26 @@ max-height: 200px;
 
 }
 .container {
+	float: left;
 	background: #ffffff;
 	border-width: 2px;
 	border-style: groove;
-	background: #ffffff;
+	background-color: #ffffff;
 	border-color:#dddddd;
 	max-width: 960px;
-	
+	min-height: 400px;
+
 	}
 
 .bio {
+	float: left;
 	background: #ffffff;
 	border-width: 2px;
 	border-style: groove;
 	max-width: 650px;
 	padding-bottom: 200px;
+	background-color: #ffffff;
+	
 	}
 
 .sidebar {
@@ -86,7 +112,16 @@ max-height: 200px;
 	background: #ffffff;
 	border-width: 2px;
 	border-style: groove;
+	background-color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+}
 
+.biopic {
+
+	max-width: 300px;
+	max-height: 200px;	
+	border-color: green;	
 }
 
 
