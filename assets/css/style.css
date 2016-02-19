@@ -10,6 +10,8 @@ background-image : url(../images/paisley.png);
 nav {
 font-size : 20px;
 word-spacing : 30px;
+padding-left: 50px;
+padding-right: 50px;
 }
 img {
 float : left;
